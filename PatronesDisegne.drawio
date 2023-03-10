@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T03:57:32.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="I7v1ZYAOOlDAm8Zl6YPn" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T04:49:41.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YkdLLVbla1jJXIDfl8PY" version="21.0.4" type="github">
   <diagram name="Página-1" id="qdYQOTE-IAm2l3-fw2n1">
     <mxGraphModel dx="1750" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -15,17 +15,17 @@
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-3" target="JE3cCo6YskCNEYd2Dr8s-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JE3cCo6YskCNEYd2Dr8s-3" value="Creacionales" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-3" value="Creacionales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2740" y="680" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-7" target="JE3cCo6YskCNEYd2Dr8s-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JE3cCo6YskCNEYd2Dr8s-7" value="Abstract Factory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-7" value="Abstract Factory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2650" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JE3cCo6YskCNEYd2Dr8s-9" value="Permirte producir familias de objetos sin especificar sus clases concretas&lt;br&gt;1.-Interfaz con&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2670" y="1262" width="180" height="180" as="geometry" />
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-9" value="Permirte producir familias de objetos sin especificar sus clases concretas&lt;br&gt;POr cada producto tienes que tener una interfaz&lt;br&gt;1.- Declaracion de interfaces&lt;br&gt;2.-Implementacion de cada interfaz con subcategorias&lt;br&gt;3.- Craacion de la clase abstracta con los metodos abstractos y cada metodo devuelve el tipo de la interfaz&lt;br&gt;4.-Se extiende de la clase abstarcta dedevolviiendo la implemtacion de las clases de la interfaces" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2586" y="1310" width="248" height="248" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
