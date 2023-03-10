@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T06:33:32.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wCZlMQu4H84kG4qvsFia" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T06:42:19.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YYkp87k18sK5PK2K5DOh" version="21.0.4" type="github">
   <diagram name="Página-1" id="qdYQOTE-IAm2l3-fw2n1">
     <mxGraphModel dx="1750" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-3" target="JE3cCo6YskCNEYd2Dr8s-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-3" target="JE3cCo6YskCNEYd2Dr8s-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-3" value="Creacionales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2740" y="680" width="180" height="100" as="geometry" />
         </mxCell>
@@ -36,20 +39,35 @@
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-11" target="JE3cCo6YskCNEYd2Dr8s-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-11" target="JE3cCo6YskCNEYd2Dr8s-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-11" target="JE3cCo6YskCNEYd2Dr8s-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-11" value="Builder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3010" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-13" value="Permite construir objetos complejos paso a paso&lt;br&gt;1,. Se contruye la clase con su constructor&lt;br&gt;2.- Se construye la clase ClassBuilder con las mismas propiedades y cada metodo tendra su setter con está estructura:&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;public ClassBuilder setPropiedad(T t){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;this.t=t;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return this;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;3.- la clase Buider tendra un método donde devuelva la instancia&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2940" y="1290" width="270" height="270" as="geometry" />
+          <mxGeometry x="2950" y="1350" width="270" height="270" as="geometry" />
         </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JE3cCo6YskCNEYd2Dr8s-15" target="JE3cCo6YskCNEYd2Dr8s-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-15" value="Prototype" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3340" y="1040" width="80" height="80" as="geometry" />
+          <mxGeometry x="3620" y="1060" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JE3cCo6YskCNEYd2Dr8s-17" value="En lugar de crear cada objeto individualmente desde cero, se clona un objeto existente y se modifica según sea necesario.&lt;br&gt;1.- Se declara la interfaz y se crea un método abstracto con el tipo de retorno de la misma interfaz:&lt;br&gt;interface Objeto{&lt;br&gt;Objecto clone();&lt;br&gt;}&lt;br&gt;&lt;br&gt;2.- Se crea una clase donde se implementa la interfaz y su metodo clone&lt;br&gt;&lt;br&gt;class ObjetoImpl implement Objeto{&lt;br&gt;&lt;br&gt;Objeto clone(){&lt;br&gt;return new ObjetoImpl(T t,V v):&lt;br&gt;}&lt;br&gt;}" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="3340" y="1250" width="300" height="300" as="geometry" />
+          <mxGeometry x="3560" y="1260" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-21" value="Crear un a clase builder conteniendo los mismo campos qeu tu nevcesitas crear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3210" y="1090" width="190" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="JE3cCo6YskCNEYd2Dr8s-23" value="Los métods setter para cada campo y el método build() es reponsable de crear el objeto&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3290" y="1250" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
